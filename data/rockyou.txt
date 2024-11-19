@@ -1,0 +1,3 @@
+This is sample file.
+Please get actual `rockyou.txt` file from:
+https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt

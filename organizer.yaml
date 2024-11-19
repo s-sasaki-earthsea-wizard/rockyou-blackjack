@@ -1,16 +1,9 @@
-repositories:
-  default:
-    branches:
-      main:
-        dismiss_stale_reviews: true
-        required_approving_review_count: 1
-        enforce_admins: true
-        required_status_checks:
-          require_review: true
+game:
+  max_score: 1000
+  bonus_words:
+    - naruto
+    - pikachu
+  bonus_multiplier: 2
 
-      develop:
-        dismiss_stale_reviews: true
-        required_approving_review_count: 1
-        enforce_admins: true
-        required_status_checks:
-          require_review: true
+dictionary:
+  path: "assets/rockyou.txt"
